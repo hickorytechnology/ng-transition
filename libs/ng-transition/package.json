@@ -1,0 +1,11 @@
+{
+  "name": "@hickorytechnology/ng-transition",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "12 - 14",
+    "@angular/core": "12 - 14"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}

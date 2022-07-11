@@ -10,8 +10,10 @@
     "test": "nx test",
     "lib:refs:build": "nx run ng-refs:build:production",
     "lib:refs:pack": "cd dist/libs/ng-refs && npm pack",
+    "lib:refs:publish": "npm run lib:refs:build && npm run lib:refs:pack && cd dist/libs/ng-refs && npm publish",
     "lib:transition:build": "nx run ng-transition:build:production",
-    "lib:transition:pack": "cd dist/libs/ng-transition && npm pack"
+    "lib:transition:pack": "cd dist/libs/ng-transition && npm pack",
+    "lib:transition:publish": "npm run lib:transition:build && npm run lib:transition:pack && cd dist/libs/ng-transition && npm publish"
   },
   "private": true,
   "dependencies": {

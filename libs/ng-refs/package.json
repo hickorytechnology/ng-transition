@@ -1,6 +1,23 @@
 {
   "name": "@hickorytechnology/ng-refs",
   "version": "0.0.1",
+  "description": "Practice better dependency injection of browser APIs within your Angular components and services.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hickorytechnology/ng-transition.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": {
+    "name": "Josh Sullivan",
+    "email": "josh@hickorytechnology.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hickorytechnology/ng-transition/issues"
+  },
+  "homepage": "https://github.com/hickorytechnology/ng-transition#readme",
   "peerDependencies": {
     "@angular/common": "12 - 14",
     "@angular/core": "12 - 14"

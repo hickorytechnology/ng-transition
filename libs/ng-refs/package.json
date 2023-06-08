@@ -1,6 +1,6 @@
 {
   "name": "@hickorytechnology/ng-refs",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Practice better dependency injection of browser APIs within your Angular components and services.",
   "repository": {
     "type": "git",
@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/hickorytechnology/ng-transition#readme",
   "peerDependencies": {
-    "@angular/common": "12 - 14",
-    "@angular/core": "12 - 14"
+    "@angular/common": "12 - 16",
+    "@angular/core": "12 - 16"
   },
   "dependencies": {
     "tslib": "^2.3.0"
